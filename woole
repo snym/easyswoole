@@ -1,0 +1,248 @@
+phpinfo()
+PHP Version => 7.1.20-1+ubuntu18.04.1+deb.sury.org+1
+
+System => Linux ubuntu1804 4.15.0-32-generic #35-Ubuntu SMP Fri Aug 10 17:58:07 UTC 2018 x86_64
+Build Date => Jul 25 2018 10:07:09
+Server API => Command Line Interface
+Virtual Directory Support => disabled
+Configuration File (php.ini) Path => /etc/php/7.1/cli
+Loaded Configuration File => /etc/php/7.1/cli/php.ini
+Scan this dir for additional .ini files => /etc/php/7.1/cli/conf.d
+Additional .ini files parsed => /etc/php/7.1/cli/conf.d/10-mysqlnd.ini,
+/etc/php/7.1/cli/conf.d/10-opcache.ini,
+/etc/php/7.1/cli/conf.d/10-pdo.ini,
+/etc/php/7.1/cli/conf.d/15-xml.ini,
+/etc/php/7.1/cli/conf.d/20-calendar.ini,
+/etc/php/7.1/cli/conf.d/20-ctype.ini,
+/etc/php/7.1/cli/conf.d/20-curl.ini,
+/etc/php/7.1/cli/conf.d/20-dom.ini,
+/etc/php/7.1/cli/conf.d/20-exif.ini,
+/etc/php/7.1/cli/conf.d/20-fileinfo.ini,
+/etc/php/7.1/cli/conf.d/20-ftp.ini,
+/etc/php/7.1/cli/conf.d/20-gettext.ini,
+/etc/php/7.1/cli/conf.d/20-iconv.ini,
+/etc/php/7.1/cli/conf.d/20-igbinary.ini,
+/etc/php/7.1/cli/conf.d/20-json.ini,
+/etc/php/7.1/cli/conf.d/20-mbstring.ini,
+/etc/php/7.1/cli/conf.d/20-msgpack.ini,
+/etc/php/7.1/cli/conf.d/20-mysqli.ini,
+/etc/php/7.1/cli/conf.d/20-odbc.ini,
+/etc/php/7.1/cli/conf.d/20-pdo_mysql.ini,
+/etc/php/7.1/cli/conf.d/20-pdo_odbc.ini,
+/etc/php/7.1/cli/conf.d/20-phar.ini,
+/etc/php/7.1/cli/conf.d/20-posix.ini,
+/etc/php/7.1/cli/conf.d/20-readline.ini,
+/etc/php/7.1/cli/conf.d/20-redis.ini,
+/etc/php/7.1/cli/conf.d/20-shmop.ini,
+/etc/php/7.1/cli/conf.d/20-simplexml.ini,
+/etc/php/7.1/cli/conf.d/20-soap.ini,
+/etc/php/7.1/cli/conf.d/20-sockets.ini,
+/etc/php/7.1/cli/conf.d/20-sysvmsg.ini,
+/etc/php/7.1/cli/conf.d/20-sysvsem.ini,
+/etc/php/7.1/cli/conf.d/20-sysvshm.ini,
+/etc/php/7.1/cli/conf.d/20-tokenizer.ini,
+/etc/php/7.1/cli/conf.d/20-wddx.ini,
+/etc/php/7.1/cli/conf.d/20-xdebug.ini,
+/etc/php/7.1/cli/conf.d/20-xmlreader.ini,
+/etc/php/7.1/cli/conf.d/20-xmlwriter.ini,
+/etc/php/7.1/cli/conf.d/20-xsl.ini,
+/etc/php/7.1/cli/conf.d/20-zip.ini,
+/etc/php/7.1/cli/conf.d/25-memcached.ini
+
+PHP API => 20160303
+PHP Extension => 20160303
+Zend Extension => 320160303
+Zend Extension Build => API320160303,NTS
+PHP Extension Build => API20160303,NTS
+Debug Build => no
+Thread Safety => disabled
+Zend Signal Handling => enabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => provided by mbstring
+IPv6 Support => enabled
+DTrace Support => available, disabled
+
+Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar, zip
+Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2
+Registered Stream Filters => zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, convert.iconv.*
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.1.20-1+ubuntu18.04.1+deb.sury.org+1, Copyright (c) 1999-2018, by Zend Technologies
+    with Xdebug v2.6.0, Copyright (c) 2002-2018, by Derick Rethans
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+calendar
+
+Calendar support => enabled
+
+Core
+
+PHP Version => 7.1.20-1+ubuntu18.04.1+deb.sury.org+1
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => Off => Off
+display_startup_errors => Off => Off
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => Off => Off
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_prepend_string => no value => no value
+error_reporting => 22527 => 22527
+expose_php => On => On
+extension_dir => /usr/lib/php/20160303 => /usr/lib/php/20160303
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .:/usr/share/php => .:/usr/share/php
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => On => On
+log_errors_max_len => 1024 => 1024
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+memory_limit => -1 => -1
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => GP => GP
+sendmail_from => no value => no value
+sendmail_path => /usr/sbin/sendmail -t -i  => /usr/sbin/sendmail -t -i 
+serialize_precision => -1 => -1
+short_open_tag => Off => Off
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sql.safe_mode => Off => Off
+sys_temp_dir => no value => no value
+track_errors => Off => Off
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => GPCS => GPCS
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => -1 => -1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.multibyte => Off => Off
+zend.script_encoding => no value => no value
+zend.signal_check => Off => Off
+
+ctype
+
+ctype functions => enabled
+
+curl
+
+cURL support => enabled
+cURL Information => 7.58.0
+Age => 4
+Features
+AsynchDNS => Yes
+CharConv => No
+Debug => No
+GSS-Negotiate => No
+IDN => Yes
+IPv6 => Yes
+krb4 => No
+Largefile => Yes
+libz => Yes
+NTLM => Yes
+NTLMWB => Yes
+SPNEGO => Yes
+SSL => Yes
+SSPI => No
+TLS-SRP => Yes
+HTTP2 => Yes
+GSSAPI => Yes
+KERBEROS5 => Yes
+UNIX_SOCKETS => Yes
+PSL => Yes
+Protocols => dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, pop3, pop3s, rtmp, rtsp, smb, smbs, smtp, smtps, telnet, tftp
+Host => x86_64-pc-linux-gnu
+SSL Version => OpenSSL/1.1.0h
+ZLib Version => 1.2.11
+
+date
+
+date/time support => enabled
+timelib version => 2016.05
+"Olson" Timezone Database Version => 0.system
+Timezone Database => internal
+Default timezone => UTC
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.583333 => 90.583333
+date.sunset_zenith => 90.583333 => 90.583333
+date.timezone => no value => no value
+
+dom
+
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.9.4
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled
+
+exif
+
+EXIF Support => enabled
+EXIF Version => 7.1.20-1+ubuntu18.04.1+deb.sury.org+1
+Supported EXIF Version => 0220
+Supported filetypes => JPEG,TIFF
+
+Directive => Local Value => Master Value
+exif.decode_jis_intel => JIS => JIS
+exif.decode_jis_motorola => JIS => JIS
+exif.decode_unicode_intel => UCS-2L
