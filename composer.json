@@ -18,6 +18,7 @@
         "easyswoole/swoole-ide-helper": "^1.03",
         "illuminate/database": "^5.7",
         "barryvdh/laravel-ide-helper": "^2.5",
+        "monolog/monolog": "^1.2",
         "ext-redis": "*",
         "ext-json": "*"
     },

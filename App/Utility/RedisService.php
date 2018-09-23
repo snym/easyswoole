@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by IntelliJ IDEA.
- * User: qymeng
+ * Users: qymeng
  * Date: 2018/9/19
  * Time: 0:15
  */
@@ -21,7 +21,7 @@ class RedisService
      * 构造函数
      * @access public
      */
-    private function __construct()
+    public function __construct()
     {
         if (!\extension_loaded('redis')) {
             throw new \BadFunctionCallException('not support: redis');

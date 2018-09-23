@@ -1,16 +1,19 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: yf
+ * Users: yf
  * Date: 2018/1/9
  * Time: 下午1:04
  */
 
 namespace EasySwoole;
 
+use App\Utility\Logger;
+use App\Utility\RedisService;
 use \EasySwoole\Core\AbstractInterface\EventInterface;
 use EasySwoole\Core\Component\Di;
 use EasySwoole\Core\Component\SysConst;
+use EasySwoole\Core\Swoole\EventHelper;
 use \EasySwoole\Core\Swoole\ServerManager;
 use \EasySwoole\Core\Swoole\EventRegister;
 use \EasySwoole\Core\Http\Request;
@@ -25,6 +28,7 @@ Class EasySwooleEvent implements EventInterface {
         date_default_timezone_set('Asia/Shanghai');
         Di::getInstance()->set(SysConst::HTTP_CONTROLLER_MAX_DEPTH, 5);
         Di::getInstance()->set( SysConst::HTTP_EXCEPTION_HANDLER, \App\ExceptionHandler::class );
+        Di::getInstance()->set('REDIS', new RedisService());
         // 初始化数据库
         $dbConf = Config::getInstance()->getConf('DATABASE');
         $capsule = new Capsule();
@@ -39,6 +43,7 @@ Class EasySwooleEvent implements EventInterface {
     public static function mainServerCreate(ServerManager $server,EventRegister $register): void
     {
         // TODO: Implement mainServerCreate() method.
+        EventHelper::registerDefaultOnMessage($register,\App\SocketParser::class);
     }
 
     public static function onRequest(Request $request,Response $response): void
